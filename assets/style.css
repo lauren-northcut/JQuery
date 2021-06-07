@@ -19,18 +19,44 @@ footer {
 #navbar {
   overflow: hidden;
 }
-#aboutContent, {
+#aboutContent, .card-title {
     text-align: center;
     justify-content: center;
 }
 #content {
     animation: fadeIn 6s;
 }
+.dbl, .db {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    float: left;
+    border: 2px blue solid;
+    text-align: center;
+    visibility: none;
+  }
+  #bs {
+    color: white;
+  }
+
 .letters:hover { 
     -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
     -webkit-animation-iteration-count: 3;
     animation-iteration-count: 3;
+}
+
+/* single  */
+
+.hide {
+    visibility: none;
+}
+
+
+/* dbl click animation */
+
+.changed {
+    visibility: visible;
 }
 
 /* Animation */
