@@ -43,7 +43,7 @@ $(document).ready(function () {
     });
   });
 
-  $("#dbA").dblclick(() => {
+  $("#dbA").click(() => {
     $("#cA").addClass("hide");
     $("#double").removeClass("hide");
     $("#dbA").addClass("hide");
