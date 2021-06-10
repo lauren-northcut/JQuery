@@ -26,6 +26,10 @@ footer {
 #content {
     animation: fadeIn 6s;
 }
+#placement {
+    color: black;
+    background-color: yellow;
+}
 .dbl, .db {
     width: 40px;
     height: 40px;
