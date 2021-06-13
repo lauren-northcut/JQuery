@@ -1,11 +1,16 @@
 * {
   box-sizing: border-box;
 }
-header{
-  padding: 30px;
+#row {
+  /* padding: 30px; */
+  text-align: center !important;
   animation: fadeIn linear 4s;
   /* font-size: 43px; */
+  
 
+}
+.nav-content {
+    float: right;
 }
 article {
   padding: 20px;
@@ -20,8 +25,8 @@ footer {
   overflow: hidden;
 }
 #aboutContent, .card-title {
-    text-align: center;
-    justify-content: center;
+    text-align: center !important;
+    align-content: center !important;
 }
 #content {
     animation: fadeIn 6s;
