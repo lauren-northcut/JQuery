@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -21,31 +18,12 @@
     <link rel="icon" href="./assets/title.ico" type="image/icon type" />
   </head>
 
-
-
   <body>
-
-
-
-
-    <header>
-    
-    </header>
-
-
-
+    <header></header>
 
     <section id="content">
-
-
-
-
-
       <nav class="nav-extended teal lighten-2" id="navbar">
         <div class="nav-wrapper">
-         
-           
-        
           <!-- <a href="#" class="brand-logo"> Lauren N.</a> -->
           <!-- <a href="#" data-target="mobile-demo" class="sidenav-trigger"
             ><i class="material-icons">menu</i></a
@@ -53,7 +31,6 @@
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="sass.html">Commonly Used JQuery methods </a></li>
           </ul> -->
-          
         </div>
         <div class="nav-content">
           <ul class="tabs tabs-transparent" id="nav-items">
@@ -64,21 +41,13 @@
             <li class="tab"><a href="#keys">Keyboard()</a></li>
             <!-- <li class="tab"><a href="#attr">Attr() vs val()</a></li>
             <li class="tab"><a href="#each">Each()</a></li> -->
-            
           </ul>
-
         </div>
-        
       </nav>
-
-
 
       <ul class="sidenav" id="mobile-demo">
         <li><a href="#">Commonly Used JQuery </a></li>
       </ul>
-
-
-
 
       <!-- About Section -->
       <article id="about">
@@ -94,22 +63,21 @@
             </div>
           </div>
           <div class="row">
-            <div class="col s12 card-content white-text" id="aboutContent">
-             This site will showcase basic (yet useful) JQuery methods. What is 
+            <div class="col s12 card-content white-text tooltip" id="aboutContent">
+              <h3>This site will showcase basic (yet useful) JQuery
+               methods.</h3>
+               <span class="tooltiptext">With JQuery you query HTML elements and perform "actions" on
+                them.
+              </span>
             </div>
           </div>
         </div>
       </article>
 
-
-
-
-
-
       <!-- click methods -->
-      <article >
+      <article>
         <div class="col s12">
-          <div id="click" class="row ">
+          <div id="click" class="row">
             <div class="col s12 title">Clickity Click Click</div>
             <div class="col s6">
               <div class="row">
@@ -155,12 +123,13 @@
                         AND when the user double presses and release the mouse;
                         the double click function will execute the desired
                         functionality.
-
                       </div>
-                    
+
                       <span class="hide" id="cA">
-                       <p> Here .each() is used to accomplish the background
-                        transition.</p>
+                        <p>
+                          Here .each() is used to accomplish the background
+                          transition.
+                        </p>
                         <div class="dbl"></div>
                         <div class="dbl"></div>
                         <div class="dbl"></div>
@@ -185,12 +154,8 @@
         </div>
       </article>
 
-
-
-
-
       <!-- css methods -->
-      <article id="css" >
+      <article id="css">
         <div class="col s12">
           <div class="row">
             <div class="col s12 title">Fun with CSS</div>
@@ -238,12 +203,8 @@
         </div>
       </article>
 
-
-
-
-
       <!-- AJAX methods -->
-      <article id="ajax" >
+      <article id="ajax">
         <div class="col s12">
           <div class="row">
             <div class="col s12 title">Calling All Restful APIs</div>
@@ -253,11 +214,15 @@
                   <div class="card blue-grey darken-1">
                     <div id="ajaxArea" class="card-content white-text">
                       <span class="card-title">AJAX</span>
-                      <p id='a1'>
-                        AJAX stands for <span class='highlight'> Asynchronous JavaScript and XML</span>. When executing a JQuery .ajax(), an object is being passed vs an argument. 
-                        Click Code to execute an AJAX method
+                      <p id="a1">
+                        AJAX stands for
+                        <span class="highlight">
+                          Asynchronous JavaScript and XML</span
+                        >. When executing a JQuery .ajax(), an object is being
+                        passed vs an argument. Click Code to execute an AJAX
+                        method
                       </p>
-                      <p class="hide" id='a2'>
+                      <p class="hide" id="a2">
                         Below content was rendered utilizing .ajax()
                         <br />
                         A new message with each click:
@@ -280,14 +245,16 @@
                   <div class="card blue-grey darken-1">
                     <div id="cS2" class="card-content white-text">
                       <span class="card-title">GET</span>
-                      <p id='g1'>
-                       The .get() is the shorthand version of .ajax(). However, unlike it its conterpart; .get() takes in argument vs an object. 
-                       Also unlike its counterpart; .get() does not have major customizable param options. 
+                      <p id="g1">
+                        The .get() is the shorthand version of .ajax(). However,
+                        unlike it its conterpart; .get() takes in argument vs an
+                        object. Also unlike its counterpart; .get() does not
+                        have major customizable param options.
                       </p>
-                      <p class="hide" id='g2'>
+                      <p class="hide" id="g2">
                         Do you know your ip?
                         <span class="highlight" id="place"></span>
-                        <br/>
+                        <br />
                         <img class="responsive-img" src="./assets/get.png" />
                       </p>
                     </div>
@@ -302,9 +269,6 @@
           </div>
         </div>
       </article>
-
-
-
 
       <!-- Keyboard methods -->
       <article>
@@ -354,15 +318,7 @@
           </div>
         </div>
       </article>
-
-
-
     </section>
-
-
-
-
-
 
     <footer>
       <p>Lauren Northcut &copy; 2021</p>
