@@ -43,4 +43,21 @@ $(document).ready(() => {
       $("#place").text(info);
     });
   });
+
+  // about ajax
+  $("#abtn").click(() => {
+    $("#abt").addClass("hide");
+    $("#button").removeClass("hide");
+    $("#a2").addClass("hide");
+    $("#a1").removeClass("hide");
+  });
+
+
+  // about get
+  $("#gbtn").click(() => {
+    $("#gbtn").addClass("hide");
+    $("#btn").removeClass("hide");
+    $("#g2").addClass("hide");
+    $("#g1").removeClass("hide");
+  });
 });
