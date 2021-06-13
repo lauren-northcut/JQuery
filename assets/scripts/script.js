@@ -1,4 +1,6 @@
 $(document).ready(function () {
+
+
   // Single Click
   //   Code
   $("#single").click(function () {

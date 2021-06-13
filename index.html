@@ -52,8 +52,8 @@
       <!-- About Section -->
       <article id="about">
         <div class="col s12 card blue-grey darken-1">
-          <div class="row">
-            <div id="row">
+          <div class="row container">
+            <div class="container" id="row">
               <div class="col letters"><h2>J</h2></div>
               <div class="col letters"><h2>Q</h2></div>
               <div class="col letters"><h2>u</h2></div>
@@ -61,12 +61,18 @@
               <div class="col letters"><h2>r</h2></div>
               <div class="col letters"><h2>y</h2></div>
             </div>
+            <a id='top' href="https://github.com/lauren-northcut/JQuery">Github</a>
           </div>
           <div class="row">
-            <div class="col s12 card-content white-text tooltip" id="aboutContent">
-              <h3>This site will showcase basic (yet useful) JQuery
-               methods.</h3>
-               <span class="tooltiptext">With JQuery you query HTML elements and perform "actions" on
+            <div
+              class="col s12 card-content white-text tooltip"
+              id="aboutContent"
+            >
+              <h3>
+                This site will showcase basic (yet useful) JQuery methods.
+              </h3>
+              <span class="tooltiptext"
+                >With JQuery you query HTML elements and perform "actions" on
                 them.
               </span>
             </div>
@@ -163,16 +169,28 @@
               <div class="row">
                 <div class="col">
                   <div class="card blue-grey darken-1">
-                    <div class="card-content white-text">
-                      <span class="card-title">CSS</span>
+                    <div class="card-content white-text slicing">
+                      <span class="card-title">Slicing</span>
                       <p>
-                        I am a very simple card. I am good at containing small
-                        bits of information. I am convenient because I require
-                        little markup to use effectively.
+                        The slice() method selects a subset of elements based on
+                        its index.  By utilizing the required start and stop paramaters - a limited amount of elements will be selected (queried). 
+                      </p>
+                      <span class="sliced">
+                        A subset is a set that is a part of a larger set.</span
+                      >
+                      <p >
+                        Starting from index 0 , index 3 & 4 will transition to blue (similar to double click - however we are using the slice() vs is())
+                        <ul >
+                          <ui>1</ui>
+                          <ui>2</ui>
+                          <ui>3</ui>
+                          <ui>4</ui>
+                          <ui>5</ui>
+                        </ul>
                       </p>
                     </div>
                     <div class="card-action">
-                      <a href="#">About</a>
+                      <a class="hide" href="#">About</a>
                       <a href="#">Code</a>
                     </div>
                   </div>
@@ -335,5 +353,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./assets/scripts/script.js"></script>
     <script src="./assets/scripts/script2.js"></script>
+    <script src="./assets/scripts/script3.js"></script>
   </body>
 </html>

@@ -3,33 +3,8 @@
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
 }
-#row {
-  /* padding: 30px; */
-  text-align: center !important;
-  animation: fadeIn linear 4s;
-  /* font-size: 43px; */
-  
 
-}
-.tooltiptext {
-    visibility: hidden;
-  width: 120px;
-  background-color: darkgray;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
- 
-  /* Position the tooltip text - see examples below! */
-  width: 120px;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-.tooltip:hover .tooltiptext{
-    visibility: visible;
-  }
-.nav-content {
+.nav-content, #top {
     float: right;
     font-family: 'Oswald', sans-serif;
 }
@@ -43,12 +18,25 @@ footer {
 .card-action {
     text-align: center;
 }
-.title {
+.card-content {
+    font-size: larger;
+}
+.title, ui {
     font-size: medium;
     color: darkgrey;
    text-align: center;
 
 }
+#row {
+    /* padding: 30px; */
+    text-align: center !important;
+    animation: fadeIn linear 4s;
+    /* font-size: 43px; */
+    
+  
+  }
+  
+ 
 #navbar {
   overflow: hidden;
 }
@@ -86,7 +74,43 @@ footer {
     -webkit-animation-iteration-count: 3;
     animation-iteration-count: 3;
 }
-
+ /* tooltip animation  */
+ .tooltiptext {
+    visibility: hidden;
+  width: 120px;
+  background-color: darkgray;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+.sliced {
+    visibility: hidden;
+    /* width: 120px; */
+    background-color: darkgray;
+    color: #fff;
+    text-align: center;
+    /* padding: 5px 0; */
+    /* border-radius: 6px; */
+   
+    /* Position the tooltip text - see examples below! */
+    /* width: 120px; */
+    top: 100%;
+    left: 50%;
+    /* margin-left: -60px; */
+}
+.slicing:hover .sliced {
+    visibility: visible;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+  }
 /* single  */
 
 .hide {
