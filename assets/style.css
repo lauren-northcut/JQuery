@@ -15,7 +15,7 @@ footer {
     padding: 10px;
     text-align: center;
   }
-.card-action {
+.card-action, #theNum {
     text-align: center;
 }
 .card-content {
