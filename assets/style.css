@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 * {
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
 }
 #row {
   /* padding: 30px; */
@@ -11,6 +13,7 @@
 }
 .nav-content {
     float: right;
+    font-family: 'Oswald', sans-serif;
 }
 article {
   padding: 20px;
@@ -19,8 +22,15 @@ footer {
     padding: 10px;
     text-align: center;
   }
+.card-action {
+    text-align: center;
+}
+.title {
+    font-size: medium;
+    color: darkgrey;
+   text-align: center;
 
-
+}
 #navbar {
   overflow: hidden;
 }
