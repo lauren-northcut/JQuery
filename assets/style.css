@@ -78,8 +78,8 @@ footer {
  .tooltiptext {
     visibility: hidden;
   width: 120px;
-  background-color: darkgray;
-  color: #fff;
+  background-color: lightgoldenrodyellow;
+  color: black;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
@@ -93,8 +93,8 @@ footer {
 .sliced {
     visibility: hidden;
     /* width: 120px; */
-    background-color: darkgray;
-    color: #fff;
+    background-color: lightgoldenrodyellow;
+    color: black;
     text-align: center;
     /* padding: 5px 0; */
     /* border-radius: 6px; */
