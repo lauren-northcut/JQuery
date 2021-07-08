@@ -3,17 +3,21 @@ $(document).ready(function(){
 
     //Code Click
   $("#codeCss").click(function () {
-   
+    
     // alert("You have just successfully executed a JQuery click method");
-    console.log("Single Click Method Executed");
     $('#aboutCss').removeClass("hide");
     $("#codeCss").addClass("hide");
 
     $("#codCss").removeClass("hide");
    $("#mainCss").addClass("hide");
   });
+
+
+
+
   //About Click
   $("#singleA").click(function () {
+    
     var codeContent = $("#sc p:last");
     var aboutContent = $("#sc p:first");
     var cb = $("#bC a:last");
