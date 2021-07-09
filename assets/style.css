@@ -90,6 +90,10 @@ footer {
   left: 50%;
   margin-left: -60px;
 }
+.slicing {
+    align-items: center;
+    text-align: center;
+}
 .sliced {
     visibility: hidden;
     /* width: 120px; */

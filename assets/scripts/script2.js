@@ -60,4 +60,30 @@ $(document).ready(() => {
     $("#g2").addClass("hide");
     $("#g1").removeClass("hide");
   });
+
+   //Code Click - CSS (slice)
+   $("#codeCss").click(function (e) {
+    e.preventDefault();
+    $("ui").slice(2).css("color", "lightBlue");
+
+    // alert("You have just successfully executed a JQuery click method");
+    $('#aboutCss').removeClass("hide");
+    $("#codeCss").addClass("hide");
+
+    $("#codCss").removeClass("hide");
+   $("#mainCss").addClass("hide");
+  });
+
+
+
+
+  //About Click - CSS (slice)
+  $("#aboutCss").click(function (e) {
+    e.preventDefault();
+    $('#aboutCss').addClass("hide");
+    $("#codeCss").removeClass("hide");
+
+    $("#codCss").addClass("hide");
+   $("#mainCss").removeClass("hide");
+  });
 });
